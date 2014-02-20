@@ -1,28 +1,15 @@
 {
-  "maintainers": [
-    {
-      "name": "Enrico Marino",
-      "email": "enrico.marino@email.com",
-      "url": "onirame.com"
-    },
-    {
-      "name": "Federico Spini",
-      "email": "federico.spini@gmail.com",
-      "url": "federicospini.com"
-    }
-  ],
-  "name": "delegate-manager",
-  "description": "Delegate manager component",
+  "name": "apily-delegate-manager",
+  "description": "Delegate manager",
   "version": "0.0.1",
-  "homepage": "https://github.com/apily/delegate-manager",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/apily/delegate-manager.git"
+  "keywords": [
+    "event",
+    "events",
+    "bind",
+    "delegate"
+  ],
+  "dependencies": {
+    "component-delegate": "git://github.com/npmcomponent/component-delegate.git"
   },
-  "main": "index.js",
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  "license": "MIT"
 }

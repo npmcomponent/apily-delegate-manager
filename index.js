@@ -16,7 +16,7 @@ module.exports = DelegateManager;
  * Module dependencies
  */
 
-var delegate = require('delegate');
+var delegate = require('component-delegate');
 
 /* 
  * Utilities
